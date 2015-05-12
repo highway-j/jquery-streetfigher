@@ -18,12 +18,12 @@ body {
     height: 494px;
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-taunt {
   width: 659px;
   height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-taunt {
   display: none;
 } 
 
@@ -37,6 +37,10 @@ body {
 
 .ryu-throwing {
   background-image: url("images/ryu-throwing-hadouken.png");
+}
+
+.ryu-taunt {
+	background-image: url("images/ryu-cool.gif");
 }
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
